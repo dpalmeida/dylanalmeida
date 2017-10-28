@@ -1,0 +1,8 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^dylanalmeida\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dylanalmeida\.com$
+RewriteRule ^working$ "http\:\/\/dylanalmeida\.com\/working\.html" [R=301,L]
+
