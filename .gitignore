@@ -9,3 +9,6 @@ _notes/
 *.pdf
 *.png
 *.jpg
+*.old
+*.bak
+*.htaccess
