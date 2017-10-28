@@ -197,16 +197,11 @@
 				<div class="col-12 text-center">
 					<form>
 						<address style="font-size:24px">
-							Philadelphia, PA <br>
-							<abbr title="Phone">
-								P:</abbr>
-							(215) 920-0661
+							<i class="fa fa-fw fa-map-marker"></i> Philadelphia, PA <br>
+							<i class="fa fa-fw fa-phone"></i> (215) 920-0661<br>
+							<i class="fa fa-fw fa-envelope"></i> <a href="mailto:dylan.p.almeida@gmail.com">dylan.p.almeida@gmail.com</a><br>
+							<i class="fa fa-fw fa-linkedin"></i> <a href="https://www.linkedin.com/in/dylan-almeida-68188073/">/dylan-almeida-68188073/</a>
 						</address>
-						</form>
-					<form>
-							<a href="mailto:dylan.p.almeida@gmail.com"  class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
-							<a href="https://www.linkedin.com/in/dylan-almeida-68188073/" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-						</ul>
 					</form>
 				</div>
 			</div>
