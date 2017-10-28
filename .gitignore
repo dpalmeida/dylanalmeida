@@ -9,6 +9,9 @@ _notes/
 *.pdf
 *.png
 *.jpg
+*.psd
 *.old
 *.bak
 *.htaccess
+/sql_backup/
+/canvasjs/
