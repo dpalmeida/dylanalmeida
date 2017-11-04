@@ -5,11 +5,11 @@ echo "<div class=\"skill-title\">".$skilltitle."</div>";
 foreach($entries as $entry){
 	$name = $entry[0];
 	$percent = $entry[1];
-	if($percent > 75){
+	if($percent >= 75){
 		$class = "success";
-	}elseif($percent > 50){
+	}elseif($percent >= 50){
 		$class = "info";
-	}elseif($percent > 25){
+	}elseif($percent >= 25){
 		$class = "warning";
 	}else{
 		$class = "danger";

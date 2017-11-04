@@ -110,7 +110,7 @@
 				<div class="col col-md-6 col-sm-6 col-xs-12">
 					<?php 
 						$skilltitle = "Social Media";
-						$entries = array(array("YouTube",100),array("Facebook",100),array("Reddit",100),array("Twitter",75),array("Tumblr",75));
+						$entries = array(array("YouTube",100),array("Facebook",100),array("Reddit",100),array("Twitter",85),array("Tumblr",85));
 						include "./includes/skillbars.php";
 					?>	
 				</div>
@@ -126,14 +126,14 @@
 				<div class="col col-md-4 col-sm-4 col-xs-12">
 					<?php 
 						$skilltitle = "Coding";
-						$entries = array(array("PHP",50),array("Python",40),array("HTML",35),array("CSS",25),array("Javascript",10));
+						$entries = array(array("PHP",50),array("HTML",45),array("CSS",35),array("Dreamweaver",30),array("Python",30));
 						include "./includes/skillbars.php";
 					?>	 
 				</div>
                 <div class="col col-md-4 col-sm-4 col-xs-12">
 					<?php 
 						$skilltitle = "Software";
-						$entries = array(array("Google Docs",100),array("Microsoft Office",100),array("Trello",75),array("GitHub",25));
+						$entries = array(array("Google Docs",100),array("Microsoft Office",100),array("Trello",75),array("GitHub",45));
 						include "./includes/skillbars.php";
 					?>	
                 </div>
@@ -197,10 +197,16 @@
 				<div class="col-12 text-center">
 					<form>
 						<address style="font-size:24px">
-							<i class="fa fa-fw fa-map-marker"></i> Philadelphia, PA <br>
-							<i class="fa fa-fw fa-phone"></i> (215) 920-0661<br>
-							<i class="fa fa-fw fa-envelope"></i> <a href="mailto:dylan.p.almeida@gmail.com">dylan.p.almeida@gmail.com</a><br>
-							<i class="fa fa-fw fa-linkedin"></i> <a href="https://www.linkedin.com/in/dylan-almeida-68188073/">/dylan-almeida-68188073/</a>
+							<div class="col-md-6 col-sm-12">
+								<i class="fa fa-fw fa-map-marker"></i> Philadelphia, PA <br>
+								<i class="fa fa-fw fa-phone"></i> (215) 920-0661<br>
+								<i class="fa fa-fw fa-envelope"></i> <a href="mailto:dylan.p.almeida@gmail.com">dylan.p.almeida@gmail.com</a><br>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<i class="fa fa-fw fa-linkedin"></i> <a href="https://www.linkedin.com/in/dylan-almeida-68188073/">/dylan-almeida-68188073</a><br></div>
+								<i class="fa fa-fw fa-twitter"></i> <a href="https://twitter.com/AllMediaEdits">@AllMediaEdits</a><br>
+								<i class="fa fa-fw fa-github"></i> <a href="https://github.com/dpalmeida">/dpalmeida</a>
+							</div>
 						</address>
 					</form>
 				</div>
